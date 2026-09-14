@@ -1,56 +1,15 @@
 # Morena Dlamini
 
-Full-stack **Microsoft** engineer — **C# / .NET**, **ASP.NET Core**, **React**, **TypeScript**, **SQL Server**.
+I write software where a defect has physical consequences. Today that means proximity-detection systems for underground mining — safety-critical embedded code, in production, audited. I'm moving that discipline to financial systems in .NET.
 
-I build secured APIs and client applications for financial workflows: explicit states, money handled as `decimal`, auth-aware services, and delivery that stands up to review.
+Two repos, both readable in ten minutes:
 
-Johannesburg · Open to fintech & banking technology roles · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com)
+- **[Codecast](https://github.com/MorenaDlamini/Codecast)** · [live](https://codecastpod.netlify.app/) — Deployed and usable. Playback state survives navigation across four stores; typed API boundary; explicit loading and failure states.
 
----
+- **[rentscape](https://github.com/MorenaDlamini/rentscape)** — MVC by hand, no framework. How I separate routing, controllers and views when nothing forces me to.
 
-### How a hiring manager should read this profile
+**Scope of the claim.** Both repos are front-end. The .NET and Azure work is in progress and not public yet — I'd rather show you nothing than show you a tutorial. What the repos evidence is TypeScript, state design, and shipping something that works. What my job evidences is production ownership under a constraint where a defect hurts someone: determinism, defensive design, audit trails. Ask me where the boundary is and I'll tell you precisely.
 
-| Look at | What it shows today |
-|---------|---------------------|
-| **Pinned / listed builds** | Front-end depth in React/TypeScript, plus an active .NET / fintech build path |
-| **Placeholders below** | The .NET API and full-stack proof repos being shipped next — scoped to bank-relevant skills |
-| **What this is not** | A claim of production ownership inside a bank. It is a deliberate portfolio aimed at that work |
+**Currently building:** an idempotent payments API in .NET 10. It lands here when it's worth your time.
 
----
-
-### Available now
-
-| Project | Stack | What you can evaluate |
-|---------|--------|------------------------|
-| [Codecast](https://github.com/MorenaDlamini/Codecast) | React, TypeScript | SPA structure, state, UI quality |
-| [rentscape](https://github.com/MorenaDlamini/rentscape) | TypeScript, Vite | Types, modular architecture without a heavy framework |
-| [csharp-fintech-journey](https://github.com/MorenaDlamini/csharp-fintech-journey) | C#, .NET | Structured path toward a ledger-style product (**LedgerLite**) |
-| [dotnet-fintech-engineering-vault](https://github.com/MorenaDlamini/dotnet-fintech-engineering-vault) | Docs | Concepts, interview prep, and the portfolio map for this path |
-
----
-
-### In build (placeholders)
-
-Repos land as public repos. Until then, this is the contract for what each one must prove.
-
-| Project | Status | Built to demonstrate |
-|---------|--------|----------------------|
-| `money-primitives` | Placeholder | Money as `decimal`, validation, xUnit |
-| `idempotent-payments-api` | Placeholder | .NET 8 Web API, idempotent `POST`, explicit payment states, CI |
-| `sql-ledger-basics` | Placeholder | EF Core, SQL Server, balance / ledger invariants |
-| `account-access-api` | Placeholder | Secured financial-style API — OAuth2/OIDC, accounts, balances, payment initiation |
-| `client-lifecycle-web` | Placeholder | React + TypeScript client with token auth against the API |
-
-These map to the skills in typical bank / fintech .NET and full-stack roles: Web API, SQL, auth, React, tests, and CI — without inventing years of tenure.
-
----
-
-### Stack
-
-`C#` · `.NET` · `ASP.NET Core` · `SQL Server` · `EF Core` · `React` · `TypeScript` · `Git` · `CI` · `Azure` *(in progress on the journey path)*
-
----
-
-### Contact
-
-**dlaminimorena@gmail.com** — Johannesburg (UTC+2)
+Johannesburg, UTC+2 · Open to .NET and full-stack roles in banking and fintech · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com)
