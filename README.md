@@ -1,37 +1,39 @@
 # Morena Dlamini
 
-**.NET and TypeScript.** I build APIs and interfaces for systems where accuracy matters — especially financial workflows.
+**C# / .NET · React · TypeScript.**  
+I build APIs and client apps for systems where a wrong number costs money — especially financial workflows.
 
 Johannesburg · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com)
 
 ---
 
-I work in C# / .NET on the service side and TypeScript on anything a person uses. I’m targeting **fintech and Microsoft-stack roles**: secure REST APIs, SQL Server, clean delivery, and full-stack work with React or Angular.
+Backend: **C# and ASP.NET Core**. Frontend: **React and TypeScript**. Data: **SQL Server**.  
+I’m targeting fintech and Microsoft-stack roles — secure REST APIs, full-stack delivery, and clean engineering under real constraints.
+
+### Start here
+
+| Repo | Why open it |
+|------|-------------|
+| [csharp-fintech-journey](https://github.com/MorenaDlamini/csharp-fintech-journey) | C# / .NET path toward a fintech ledger product (**LedgerLite**) |
+| [dotnet-fintech-engineering-vault](https://github.com/MorenaDlamini/dotnet-fintech-engineering-vault) | Study notes, interview prep, portfolio map |
+| [Codecast](https://github.com/MorenaDlamini/Codecast) | **React + TypeScript** SPA — state, UI, production-minded front end |
+| [rentscape](https://github.com/MorenaDlamini/rentscape) | TypeScript architecture without a framework |
 
 ### What I’m building toward
 
-| Track | Why it matters for hiring |
-|--------|---------------------------|
-| Secured .NET APIs | REST, auth (OAuth2 / OIDC), idempotent writes, tests, CI |
-| Data & money correctness | SQL Server, EF Core, `decimal` money, clear failure states |
-| Full stack | TypeScript clients that talk to real APIs with tokens |
-| Integrations mindset | Mapping, retries, reliable hand-offs between systems |
-
-### Where to look on my profile
-
-| Repo | What it is |
-|------|------------|
-| [csharp-fintech-journey](https://github.com/MorenaDlamini/csharp-fintech-journey) | Structured C# / .NET path toward a fintech ledger product (**LedgerLite**) |
-| [dotnet-fintech-engineering-vault](https://github.com/MorenaDlamini/dotnet-fintech-engineering-vault) | Study notes, interview prep, and portfolio map for the same direction |
-| [Codecast](https://github.com/MorenaDlamini/Codecast) | React + TypeScript SPA — state, UI, production-minded front end |
-| [rentscape](https://github.com/MorenaDlamini/rentscape) | TypeScript architecture without a framework — types, structure, clarity |
+| Track | Signal for hiring |
+|--------|-------------------|
+| .NET APIs | REST, OAuth2 / OIDC, idempotent writes, tests, CI |
+| Money & data | SQL Server, EF Core, `decimal` money, explicit failure states |
+| Full stack | **React** clients calling secured APIs with tokens |
+| Integrations | Mapping, retries, reliable hand-offs between systems |
 
 ### Stack
 
-`C#` · `.NET` · `ASP.NET Core` · `SQL Server` · `TypeScript` · `React` · `Git` · `CI`
+`C#` · `.NET` · `ASP.NET Core` · `SQL Server` · `React` · `TypeScript` · `Git` · `CI`
 
-Azure, auth, messaging, and deeper API work are part of the active build path in the journey repo — not claimed as finished production ownership.
+Azure, deeper auth, and messaging are on the active path in the journey repo — documented as work in progress, not claimed as bank production ownership.
 
-### How to reach me
+### Contact
 
-Email is fastest: **dlaminimorena@gmail.com**
+**dlaminimorena@gmail.com**
