@@ -12,23 +12,34 @@ management reads, for people who are not developers and cannot wait for a fix.
 | Real-time web dashboards | Field services and operations | Production analytics as it happens: what is being built, tested and serviced, live |
 | Internal platform with single sign-on *(in progress)* | Every department | One login across the company's internal applications, with each department's tools built for that department rather than one generic portal |
 
-None of it is at scale, and I say so. What it is: real users, real consequences, and the
-lessons that only come from that — offline-first means deciding who wins when two devices
-disagree; a scan is only a source of truth if the process cannot skip it; data crossing a
-system boundary is where things break; single sign-on is where authentication stops being a
-library and becomes a design.
+None of it is at scale, and I say so. What it is: real users and real consequences.
 
-**[worked-examples](https://github.com/MorenaDlamini/worked-examples)** is the other half:
-each topic I study becomes a module — a written lesson, failing tests, my solutions, a
-spoken answer — and CI runs every module on every push.
-[`CONTRIBUTING.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CONTRIBUTING.md)
-is the bar; [`NON-CLAIMS.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/NON-CLAIMS.md)
-is what it refuses to claim.
+### What that work taught me
 
-**What I'm working toward.** The same requirements sit under every senior systems role I have
-read: operate something in production for other people, design the API and the data model
-underneath it, reason about asynchronous behaviour, own reliability, and explain it plainly.
-[`CURRICULUM.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CURRICULUM.md)
-lists them and the exit test for every phase. It carries no dates.
+- **Offline-first** means deciding who wins when two devices disagree.
+- **A scan** is only a source of truth if the process cannot skip it.
+- **A system boundary** — ERP to database, device to server — is where things break.
+- **Single sign-on** is where authentication stops being a library and becomes a design.
+
+### The other half — [worked-examples](https://github.com/MorenaDlamini/worked-examples)
+
+Each topic I study becomes a module: a written lesson, failing tests, my solutions, a spoken
+answer. CI runs every module on every push.
+
+- [`CONTRIBUTING.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CONTRIBUTING.md) — the bar a module clears before it counts
+- [`NON-CLAIMS.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/NON-CLAIMS.md) — what the repository refuses to claim
+- [`CURRICULUM.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CURRICULUM.md) — the phases, each with the exit test that ends it. No dates.
+
+### What I'm working toward
+
+The requirements that sit under every senior systems role I have read:
+
+- Operate something in production, for other people
+- Design the API and the data model underneath it
+- Reason about asynchronous behaviour
+- Own reliability, including on-call
+- Explain it plainly
+
+---
 
 Johannesburg, UTC+2 · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com)
