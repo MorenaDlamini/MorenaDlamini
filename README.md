@@ -23,9 +23,10 @@ spoken answer — and CI runs every module on every push.
 is the bar; [`NON-CLAIMS.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/NON-CLAIMS.md)
 is what it refuses to claim.
 
-**Direction.** Data infrastructure, API design, and the security around both — the overlap
-rather than either alone. The work above already leans that way;
+**What I'm working toward.** The same requirements sit under every senior systems role I have
+read: operate something in production for other people, design the API and the data model
+underneath it, reason about asynchronous behaviour, own reliability, and explain it plainly.
 [`CURRICULUM.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CURRICULUM.md)
-names the roles it is aimed at and the exit test for every phase. It carries no dates.
+lists them and the exit test for every phase. It carries no dates.
 
 Johannesburg, UTC+2 · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com)
