@@ -1,45 +1,29 @@
 # Morena Dlamini
 
-Software engineer at Booyco Electronics, Johannesburg — a mining-safety manufacturer. I build
-the software the business runs on, from the test bench to the field to the dashboards
-management reads, for people who are not developers and cannot wait for a fix.
+C# / .NET full-stack engineer in Johannesburg, building AI features in .NET.
 
-| Shipped | For whom | What it does |
-|---|---|---|
-| Offline-first desktop and tablet applications | Test engineers on the bench, field technicians on site | Automated hardware testing, field-service compliance — certificates of compliance and service reports — and production traceability. Built to keep working where there is no signal and reconcile when there is. Electron, Firebase |
-| End-to-end production tracking | Assembly, QC and dispatch | RFID, NFC and barcode scanning at every step, so a component's history from assembly to dispatch is recorded by the scan rather than by memory |
-| Sage ERP → Firebase integration pipeline | Operations | Centralises operational reporting — ERP data and operational records in one place instead of re-keyed between systems |
-| Real-time web dashboards | Field services and operations | Production analytics as it happens: what is being built, tested and serviced, live |
-| Internal platform with single sign-on *(in progress)* | Every department | One login across the company's internal applications, with each department's tools built for that department rather than one generic portal |
+## Start here
 
-None of it is at scale, and I say so. What it is: real users and real consequences.
+- **[dotnet-ai-engineering](https://github.com/MorenaDlamini/dotnet-ai-engineering)** — C#,
+  SQL Server, React and AI in .NET, where every item links to its evidence: tests, ADRs,
+  postmortems. [Dashboard](https://morenadlamini.github.io/dotnet-ai-engineering/)
 
-### What that work taught me
+## At work
 
-- **Offline-first** means deciding who wins when two devices disagree.
-- **A scan** is only a source of truth if the process cannot skip it.
-- **A system boundary** — ERP to database, device to server — is where things break.
-- **Single sign-on** is where authentication stops being a library and becomes a design.
+Production software for people who are not developers and cannot wait for a fix:
 
-### The other half — [worked-examples](https://github.com/MorenaDlamini/worked-examples)
+- **Offline-first desktop and tablet apps** that keep working without signal and reconcile
+  when it returns
+- **ERP-to-cloud integration pipelines**, so operational data stops being re-keyed
+- **Real-time operational dashboards**
 
-Each topic I study becomes a module: a written lesson, failing tests, my solutions, a spoken
-answer. CI runs every module on every push.
+The code is private. Ask me about any of the design decisions behind it.
 
-- [`CONTRIBUTING.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CONTRIBUTING.md) — the bar a module clears before it counts
-- [`NON-CLAIMS.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/NON-CLAIMS.md) — what the repository refuses to claim
-- [`CURRICULUM.md`](https://github.com/MorenaDlamini/worked-examples/blob/master/CURRICULUM.md) — the phases, each with the exit test that ends it. No dates.
+## Earlier work
 
-### What I'm working toward
-
-The requirements that sit under every senior systems role I have read:
-
-- Operate something in production, for other people
-- Design the API and the data model underneath it
-- Reason about asynchronous behaviour
-- Own reliability, including on-call
-- Explain it plainly
+- [Codecast](https://codecastpod.netlify.app/) — podcast player SPA in React, TypeScript and Zustand
+- [rentscape](https://github.com/MorenaDlamini/rentscape) — property listings in TypeScript with a hand-rolled MVC, no framework
 
 ---
 
-Johannesburg, UTC+2 · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com)
+Johannesburg, UTC+2 · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com) · [LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/)
