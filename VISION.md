@@ -12,14 +12,18 @@ of what Morena builds and where to find it. It is a landing page, not a progress
   reconciliation), with AI features in .NET. The README is not repositioned for each new
   audience or role.
 - **It changes when something ships or retires.** Adding a project adds one line and one pin.
+- **Short sections, one job each:** who I am, what I'm building, how I work, ask me about,
+  where to find me.
 - **One line per item**, saying what it does for the reader.
-- **dotnet-ai-engineering is linked once**, together with its dashboard. Its progress, levels
+- **No duplicate links.** The sidebar's social links already carry LinkedIn, so the website
+  field stays empty until there's a site of my own.
+- **dotnet-ai-engineering is linked once.** Its progress, levels
   and curriculum stay in that repository. The README never repeats counts or status from it.
 - **No employer.** Work done for an employer is described by what it does, never by who it is
   for or by details that identify the company or its industry.
 - **Never framed as a beginner.** Show evidence; don't apologise.
   Limits and disclaimers go in dotnet-ai-engineering's NON-CLAIMS.md, not here.
-- **The stack is a sentence, not a wall.** It lives in the opening, in prose. No badge rows,
+- **The stack is a sentence, not a wall.** It lives in prose, in "Ask me about". No badge rows,
   logo walls, or stats, streak, trophy or visitor widgets. A technology gets its own link only
   when a public artifact uses it, and the link goes to that artifact.
 - **Numbers only when they can be checked**, stated as coarse floors ("1k+") and refreshed by hand.

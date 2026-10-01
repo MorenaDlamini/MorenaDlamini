@@ -1,33 +1,33 @@
-# Morena Dlamini
+### Hi, I'm Morena
 
-I build C#/.NET software that keeps working when the network doesn't: offline-first desktop and
-tablet apps that reconcile when signal returns, ERP-to-cloud integration pipelines, and real-time
-operational dashboards. It runs in production, used every day by people who aren't developers.
+I'm a C#/.NET full-stack engineer in Johannesburg. I build production software that keeps working
+offline and reconciles when it reconnects, and integrations that keep business systems in sync.
 
-The code is private. Ask me about any of the design decisions behind it.
+Now I'm building **randmatch**: payout reconciliation for South African merchants.
 
-## Now building: randmatch
+### randmatch
 
-Payout reconciliation for South African merchants who take payments through several providers.
-Every provider pays one net, batched deposit. randmatch breaks each one back down into sales,
-fees, refunds and holds, and shows what doesn't match.
+Every payment provider pays a merchant one net, batched deposit. randmatch breaks each one back
+down into sales, fees, refunds and holds, and shows what doesn't match.
 
-- **[randmatch-recon](https://github.com/MorenaDlamini/randmatch-recon)**: the product. Matching,
-  the exceptions queue, and an AI break-explainer that cites the rows it read and never posts on
-  its own. C#, SQL Server, React, Azure.
-- **[randmatch-ledger](https://github.com/MorenaDlamini/randmatch-ledger)**: the double-entry
-  clearing ledger behind it, with an idempotent posting API and Xero and Sage export. C#,
-  Postgres, Angular, AWS.
-- **[randmatch-sim](https://github.com/MorenaDlamini/randmatch-sim)**: generates provider
-  exports, bank statements and webhooks with planted breaks, so every match rate is measured
-  against a known answer.
+- [randmatch-recon](https://github.com/MorenaDlamini/randmatch-recon): matching, the exceptions
+  queue, and an AI break-explainer that cites its sources
+- [randmatch-ledger](https://github.com/MorenaDlamini/randmatch-ledger): the double-entry
+  clearing ledger behind it
+- [randmatch-sim](https://github.com/MorenaDlamini/randmatch-sim): realistic provider and bank
+  data with planted breaks, so every match rate is measured
 
-## How I work
+### How I work
 
-**[dotnet-ai-engineering](https://github.com/MorenaDlamini/dotnet-ai-engineering)**: specs
-before code, decision records, tests that name their risk, postmortems, and the AI-review trail
-behind every PR. [Dashboard](https://morenadlamini.github.io/dotnet-ai-engineering/)
+[dotnet-ai-engineering](https://github.com/MorenaDlamini/dotnet-ai-engineering): specs before
+code, decision records, tests that name their risk, and the AI-review trail behind every PR.
 
----
+### Ask me about
 
-Johannesburg, UTC+2 · [dlaminimorena@gmail.com](mailto:dlaminimorena@gmail.com) · [LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/)
+C#/.NET, ASP.NET Core, SQL Server, React and Angular, Azure and AWS, offline-first sync, payments
+and reconciliation, and using AI coding assistants without letting them do the thinking.
+
+### Where to find me
+
+- [LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/)
+- [Email](mailto:dlaminimorena@gmail.com)
