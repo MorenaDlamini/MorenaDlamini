@@ -1,28 +1,32 @@
 # Morena Dlamini
 
-C# / .NET full-stack engineer in Johannesburg, building AI features in .NET.
-
-## Start here
-
-- **[dotnet-ai-engineering](https://github.com/MorenaDlamini/dotnet-ai-engineering)** — C#,
-  SQL Server, React and AI in .NET, where every item links to its evidence: tests, ADRs,
-  postmortems. [Dashboard](https://morenadlamini.github.io/dotnet-ai-engineering/)
-
-## At work
-
-Production software for people who are not developers and cannot wait for a fix:
-
-- **Offline-first desktop and tablet apps** that keep working without signal and reconcile
-  when it returns
-- **ERP-to-cloud integration pipelines**, so operational data stops being re-keyed
-- **Real-time operational dashboards**
+I build C#/.NET software that keeps working when the network doesn't: offline-first desktop and
+tablet apps that reconcile when signal returns, ERP-to-cloud integration pipelines, and real-time
+operational dashboards. It runs in production, used every day by people who aren't developers.
 
 The code is private. Ask me about any of the design decisions behind it.
 
-## Earlier work
+## Now building: randmatch
 
-- [Codecast](https://codecastpod.netlify.app/) — podcast player SPA in React, TypeScript and Zustand
-- [rentscape](https://github.com/MorenaDlamini/rentscape) — property listings in TypeScript with a hand-rolled MVC, no framework
+Payout reconciliation for South African merchants who take payments through several providers.
+Every provider pays one net, batched deposit. randmatch breaks each one back down into sales,
+fees, refunds and holds, and shows what doesn't match.
+
+- **[randmatch-recon](https://github.com/MorenaDlamini/randmatch-recon)**: the product. Matching,
+  the exceptions queue, and an AI break-explainer that cites the rows it read and never posts on
+  its own. C#, SQL Server, React, Azure.
+- **[randmatch-ledger](https://github.com/MorenaDlamini/randmatch-ledger)**: the double-entry
+  clearing ledger behind it, with an idempotent posting API and Xero and Sage export. C#,
+  Postgres, Angular, AWS.
+- **[randmatch-sim](https://github.com/MorenaDlamini/randmatch-sim)**: generates provider
+  exports, bank statements and webhooks with planted breaks, so every match rate is measured
+  against a known answer.
+
+## How I work
+
+**[dotnet-ai-engineering](https://github.com/MorenaDlamini/dotnet-ai-engineering)**: specs
+before code, decision records, tests that name their risk, postmortems, and the AI-review trail
+behind every PR. [Dashboard](https://morenadlamini.github.io/dotnet-ai-engineering/)
 
 ---
 
