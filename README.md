@@ -25,8 +25,7 @@ code, decision records, tests that name their risk, and the AI-review trail behi
 ### Ask me about
 
 C#/.NET, ASP.NET Core, TypeScript, React and Angular, Python, SQL Server, Azure and AWS,
-offline-first sync, payments and reconciliation, and using AI coding assistants without letting
-them do the thinking.
+offline-first sync, payments and reconciliation, and AI-assisted development with Claude Code.
 
 ### Where to find me
 
