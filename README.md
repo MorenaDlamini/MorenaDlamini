@@ -1,6 +1,6 @@
 ### Hi, I'm Morena
 
-Johannesburg · Full-stack engineer · APIs, integrations & systems that stay correct in production
+Johannesburg · Software Developer · APIs, integrations & systems that stay correct in production
 
 I own delivery end to end: stakeholder conversations → specs → code → tests → CI/CD → release.
 I care about dry-run safety, audit trails, and software other people can run without me.
@@ -22,14 +22,14 @@ I care about dry-run safety, audit trails, and software other people can run wit
 
 ## What I've shipped
 
-Production work lives in private repositories. Happy to walk through design and code.
+Production work lives in private repositories (mining / operational systems). Happy to walk through design and code. Titles match the Entelect CV (no internal product names).
 
 | System | What it does | Stack signals |
 |---|---|---|
-| **Payroll ↔ HR leave sync** | Keeps ~8,600 leave records in step across two companies; dry-run + backup before writes; refuses empty wipes; 109 tests; cron 34×/week | Python |
-| **Multi-tenant platform + SSO** | Schema-per-tenant Postgres, OIDC / Active Directory, tenant onboarding, 30 migrations, 20 ADRs; foundation of the company web platform (~93 users) | TypeScript, NestJS, React, PostgreSQL, Docker |
-| **Workforce clock (cutover)** | Migrated web app onto the platform; backups, firewall/network with IT; fixed large payroll workbook exports; role-scoped downloads | TypeScript, platform hosting |
-| **Offline field & floor apps** | Offline-first capture, sync queues, conflict handling, staged release channels; ~180 field users on the service app | Electron, TypeScript/JS, SQLite / Firestore |
+| **Multi-tenant platform + SSO** | Company web spine: schema-per-tenant Postgres, OIDC / ADFS, audited per-app grants, versioned API contract, desktop update feeds, Docker cutovers | TypeScript, NestJS, React, PostgreSQL, Docker |
+| **Offline production-floor desktop** | Offline-first tracker on local SQLite; outbox + two-way station sync; hardware bridge for safe tag writes; pilot/general release channels; Vitest / Playwright / pytest in CI | Electron, TypeScript, SQLite, Python |
+| **Field-service compliance app** | Took over mid-delivery; certificates, service reports, risk assessments offline with durable sync; ~180 users; Microsoft Store packaging | Electron, JavaScript, Firestore, IndexedDB |
+| **Also delivered** | Quality-records desktop (shared client/server reducer); field device config over laptop hotspot + TCP; payroll leave sync with dry-run / backup-before-write | TypeScript / Python / PyQt6 |
 
 ## Public builds
 
@@ -68,4 +68,4 @@ Polyglot on purpose — pick the runtime that fits the problem; the constant is 
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/) · [Email](mailto:dlaminimorena@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/) · [GitHub](https://github.com/MorenaDlamini) · [Email](mailto:dlaminimorena@gmail.com)
