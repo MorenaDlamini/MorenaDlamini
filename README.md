@@ -22,11 +22,11 @@ I care about dry-run safety, audit trails, and software other people can run wit
 
 ## What I've shipped
 
-Production work lives in private repositories (mining / operational systems). Happy to walk through design and code. Titles match the Entelect CV (no internal product names).
+Production work lives in private repositories (mining / operational systems). Happy to walk through design and code. Titles are descriptive only (no internal product names).
 
 | System | What it does | Stack signals |
 |---|---|---|
-| **Multi-tenant platform + SSO** | Company web spine: schema-per-tenant Postgres, OIDC / ADFS, audited per-app grants, versioned API contract, desktop update feeds, Docker cutovers | TypeScript, NestJS, React, PostgreSQL, Docker |
+| **Multi-tenant platform + SSO** | Shared web spine: schema-per-tenant Postgres, OIDC / ADFS, audited per-app grants, versioned API contract, desktop update feeds, Docker cutovers | TypeScript, NestJS, React, PostgreSQL, Docker |
 | **Offline production-floor desktop** | Offline-first tracker on local SQLite; outbox + two-way station sync; hardware bridge for safe tag writes; pilot/general release channels; Vitest / Playwright / pytest in CI | Electron, TypeScript, SQLite, Python |
 | **Field-service compliance app** | Took over mid-delivery; certificates, service reports, risk assessments offline with durable sync; ~180 users; Microsoft Store packaging | Electron, JavaScript, Firestore, IndexedDB |
 | **Also delivered** | Quality-records desktop (shared client/server reducer); field device config over laptop hotspot + TCP; payroll leave sync with dry-run / backup-before-write | TypeScript / Python / PyQt6 |
