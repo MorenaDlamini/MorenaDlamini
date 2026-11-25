@@ -1,49 +1,71 @@
 ### Hi, I'm Morena
 
-Software engineer in Johannesburg (Python, TypeScript, SQL). I build systems that keep business
-data correct as it moves: payroll-to-app sync pipelines, reconciliation, and multi-tenant
-Postgres. Next: analytics models and AI agents on the same data.
+Johannesburg · Full-stack engineer · APIs, integrations & systems that stay correct in production
 
-### What I've shipped
+I own delivery end to end: stakeholder conversations → specs → code → tests → CI/CD → release.
+I care about dry-run safety, audit trails, and software other people can run without me.
 
-These live in private repositories. I'm happy to walk through the code and design.
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-- **Payroll-to-HR leave sync pipeline** (Python, I built it). Keeps about 8,600 leave records for
-  two companies in step between the payroll system and a workforce app. In production, running
-  unattended on cron 34 times a week.
-  - Extracts and normalises payroll records, diffs them against the app, and applies a
-    create, update and delete plan. Safe to re-run: when nothing has changed, it writes nothing.
-  - Before any write it runs a dry run and takes a backup, and it refuses to sync if payroll
-    returns too few records, so an empty API response can't wipe the app.
-  - Alerts on failure, sends a weekly digest, and has 109 tests.
-  - I worked with the payroll vendor, IT and HR to take it live.
-- **Multi-tenant platform for an industrial company** (TypeScript, NestJS, React, PostgreSQL).
-  Live, with 93 users. I built the foundation (185 of its 195 commits): one Postgres schema
-  per tenant, scripted tenant onboarding, OpenID Connect sign-in, 30 migrations and 20
-  architecture decision records.
-- **Workforce clock system** (contributor). Moved its web app onto the multi-tenant platform:
-  hosting, deployment scripts, the cutover, nightly backups, and the network and firewall spec
-  agreed with IT. Built the platform's reader for the old Firebase data during the move. Fixed
-  payroll and timesheet exports that timed out on large workbooks, scoped access so each
-  manager downloads only their own team's worksheets, and ran releases.
+## Start here
 
-### How I work
+- **What I've shipped** — production systems (private; walkthrough on request)
+- **Public builds** — small, open artefacts you can clone and run
+- **How I work** — specs, tests, governed AI-assisted delivery
 
-**[Engineering practice](https://github.com/MorenaDlamini/dotnet-ai-engineering)**: specs
-before code, decision records, tests that name the risk they cover, and written rules for how I
-use AI assistants, starting with "I never commit a line I cannot explain". CI runs the tests on
-every push.
+## What I've shipped
 
-### Projects
+Production work lives in private repositories. Happy to walk through design and code.
 
-- **randmatch**: payout reconciliation for South African merchants, with an eval-scored AI
-  explainer for mismatches. *Design stage: specs and evals written, implementation not
-  started.*
-  [Matching and exceptions](https://github.com/MorenaDlamini/randmatch-recon) ·
-  [Double-entry ledger](https://github.com/MorenaDlamini/randmatch-ledger) ·
-  [Test-data simulator with planted errors](https://github.com/MorenaDlamini/randmatch-sim)
+| System | What it does | Stack signals |
+|---|---|---|
+| **Payroll ↔ HR leave sync** | Keeps ~8,600 leave records in step across two companies; dry-run + backup before writes; refuses empty wipes; 109 tests; cron 34×/week | Python |
+| **Multi-tenant platform + SSO** | Schema-per-tenant Postgres, OIDC / Active Directory, tenant onboarding, 30 migrations, 20 ADRs; foundation of the company web platform (~93 users) | TypeScript, NestJS, React, PostgreSQL, Docker |
+| **Workforce clock (cutover)** | Migrated web app onto the platform; backups, firewall/network with IT; fixed large payroll workbook exports; role-scoped downloads | TypeScript, platform hosting |
+| **Offline field & floor apps** | Offline-first capture, sync queues, conflict handling, staged release channels; ~180 field users on the service app | Electron, TypeScript/JS, SQLite / Firestore |
 
-### Where to find me
+## Public builds
 
-[LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/) ·
-[Email](mailto:dlaminimorena@gmail.com)
+| Repo | Status | One-liner |
+|---|---|---|
+| [Codecast](https://github.com/MorenaDlamini/Codecast) | Live | Podcast player SPA — React, TypeScript, Zustand ([demo](https://codecastpod.netlify.app/)) |
+| [rentscape](https://github.com/MorenaDlamini/rentscape) | Demo | Property listings with a hand-rolled MVC in TypeScript |
+| [event-risk-gateway](https://github.com/MorenaDlamini/event-risk-gateway) | *Next* | Event-driven risk decisions with dry-run mode, idempotency, tests, CI |
+| [randmatch-recon](https://github.com/MorenaDlamini/randmatch-recon) | Specs | Payout reconciliation for SA merchants — matching, exceptions, eval-scored explainer |
+| [randmatch-ledger](https://github.com/MorenaDlamini/randmatch-ledger) | Specs | Double-entry clearing ledger (idempotent postings, journal, audit) |
+| [randmatch-sim](https://github.com/MorenaDlamini/randmatch-sim) | Specs | Provider/bank test data with planted breaks |
+
+## How I work
+
+Governed delivery, not vibe-only shipping:
+
+1. **Spec first** — written requirements and acceptance criteria before implementation volume  
+2. **Human owns judgment** — AI may draft; I keep/reject and I never commit a line I cannot explain  
+3. **Tests name the risk** — acceptance tests map to the spec; CI on every push  
+4. **Production habits** — dry-run paths, health checks, release notes, handover docs  
+
+Practice lab (habits, not the portfolio face): [dotnet-ai-engineering](https://github.com/MorenaDlamini/dotnet-ai-engineering)
+
+## Stack
+
+```
+Languages     TypeScript, JavaScript, Python, SQL · C# / .NET (building depth)
+Front end     React, Electron, Vite
+Back end      NestJS, Node.js, FastAPI, REST, OIDC / Active Directory
+Data          PostgreSQL, SQL Server, SQLite, Firestore
+Delivery      Docker, GitHub Actions, Linux, Azure (hosted migrations 2016–2020)
+Quality       Vitest, Playwright, pytest · ADRs · dry-run / rollback patterns
+```
+
+Polyglot on purpose — pick the runtime that fits the problem; the constant is delivery discipline.
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/morena-dlamini-b33081169/) · [Email](mailto:dlaminimorena@gmail.com)
