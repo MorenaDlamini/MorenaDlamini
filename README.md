@@ -44,7 +44,7 @@ Production work lives in private repositories (mining / operational systems). Ha
 
 ## How I work
 
-Governed delivery, not vibe-only shipping:
+Governed delivery: AI may draft; humans own the merge.
 
 1. **Spec first**: written requirements and acceptance criteria before implementation volume
 2. **Human owns judgment**: AI may draft; I keep/reject and I never commit a line I cannot explain
