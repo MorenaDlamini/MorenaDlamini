@@ -3,7 +3,7 @@
 Johannesburg · Software Developer · full-stack delivery, APIs and integrations
 
 I own delivery end to end: stakeholder conversations → specs → code → tests → CI/CD → release.
-I care about dry-run safeguards, audit trails, and software other people can run without me.
+Dry-run safeguards before production writes, audit trails, and handover-ready releases.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -44,7 +44,7 @@ Production work lives in private repositories (mining / operational systems). Ha
 
 ## How I work
 
-Governed delivery: AI may draft; humans own the merge.
+Governed delivery:
 
 1. **Spec first**: written requirements and acceptance criteria before implementation volume
 2. **Human owns judgment**: AI may draft; I keep/reject and I never commit a line I cannot explain
